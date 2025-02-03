@@ -1,4 +1,4 @@
-const removeTemp = require("../utils/removeTemp");
+const removeTemp = require("../controllers/utils/removeTemp");
 
 const imgMiddleware = async (req, res, next) => {
   try {
